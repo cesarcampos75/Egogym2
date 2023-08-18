@@ -2,8 +2,8 @@
 class Database 
 {
     private $PDOLocal;
-    private $user = "root";
-    private $password = "";
+    private $user = "ego";
+    private $password = "ego";
     private $server = "mysql:host=localhost; dbname=egogym2";
 
     function conectarDB()
